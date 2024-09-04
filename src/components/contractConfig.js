@@ -51,6 +51,7 @@ export const contracts = {
   "function getGroupCount() public view returns (uint256)",
   "function approve(address spender, uint256 amount) public override returns (bool)",
   "function getOwner() external view override returns (address) ",
+  "function newproprietatio(address _novoproprietario) public onlyOwner",
   "function getGroup(uint256 groupId) public view returns (string memory, string memory, string memory, address)"
   
       /* ABI do contrato na Polygon */],
